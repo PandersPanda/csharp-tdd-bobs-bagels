@@ -8,7 +8,7 @@ namespace tdd_bobs_bagels.CSharp.Main
 {
     public class Basket
     {
-        public int capacity = 5;
+        public int capacity { get; set; } = 5;
         public int productCount { get { return _products.Count; } }
         private Dictionary<string, int> _products = new Dictionary<string, int>(); 
         public Basket() { }

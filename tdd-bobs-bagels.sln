@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tdd-bobs-bagels.CSharp.Main", "tdd-bobs-bagels.CSharp.Main\tdd-bobs-bagels.CSharp.Main.csproj", "{B747E7EA-396B-4AE6-B931-6C2056543157}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-tdd-bobs-bagels.tests", "csharp-tdd-bobs-bagels.tests\csharp-tdd-bobs-bagels.tests.csproj", "{34FADA27-F7C6-4A96-BDDF-23C04E4EAAF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B747E7EA-396B-4AE6-B931-6C2056543157} = {B747E7EA-396B-4AE6-B931-6C2056543157}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

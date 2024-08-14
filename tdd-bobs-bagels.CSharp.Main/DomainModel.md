@@ -4,4 +4,4 @@
 |				  |											    | basket is full						| false	  |
 |                 | `remove(String product)`					| product exists in basket				| true	  |
 |				  |											    | product does not exist in basket		| false	  |
-|				  | `change_capacity(int capacity)`			    |										|		  |
+|				  | `change_capacity(int capacity)`			    |										| int	  |
